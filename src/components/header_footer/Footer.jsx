@@ -1,10 +1,11 @@
 
+
 const Footer = (props) => {
   return (
-    <div className="footer" >
-      <p className='text-center pt-3'>© 2020 Study Buddy</p>
+    <footer className="footer" style={{backgroundColor: "#f1f1f1", paddingTop: "5px"}}>
+      <p className='text-center pt-3'>© {new Date().getFullYear()} Study Buddy</p>
       <p className='float-end'>{props.type}</p>
-    </div>
+    </footer>
   )
 }
 

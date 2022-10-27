@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min';
+import 'bootstrap/dist/js/bootstrap.bundle.min';      
 import './css/public.css';
 
 function UserType() {
@@ -12,7 +12,7 @@ function UserType() {
         <Link to="tutor"><button className="col-12 btn btn-success">Teacher</button></Link>
       </div>
       <div className='col-4'>
-        <Link to="tutor"><button className="col-12 btn btn-primary">Student</button></Link>
+        <Link to="Learners"><button className="col-12 btn btn-primary">Student</button></Link>
       </div>
     </div>
   ) 
@@ -69,6 +69,7 @@ function Features() {
 }
 
 function Public() {
+
   return (
     <div>
       <Heading title='Get Started' />
